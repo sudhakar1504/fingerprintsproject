@@ -219,7 +219,7 @@ color: #2D2C2C;
 			font-family: Manrope;
 		font-style: normal;
 		font-weight: bold;
-		font-size: 14px;
+		font-size: 15px;
 		line-height: 139.5%;
 		color: #2D2C2C;
 		
@@ -228,7 +228,7 @@ color: #2D2C2C;
 			font-family: Manrope;
 		font-style: normal;
 		font-weight: normal;
-		font-size: 10px;
+		font-size: 12px;
 		line-height: 139.5%;
 		color: #2D2C2C;
 		margin: 3% 0px;
@@ -261,7 +261,7 @@ color: #2D2C2C;
 			border:none !important;
 			width: 14px !important;
 			height: 14px !important;
-			top: -7px !important;
+			top: -11px !important;
 		}
 		.slider__info{
 			display: flex;
