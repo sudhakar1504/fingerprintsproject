@@ -1,0 +1,339 @@
+        .products__container{
+            text-align: center;
+            width: 100%;
+            margin-top: 8%;
+        }
+        .product__one{
+            display: flex;
+            padding: 10%;
+            justify-content: space-around;
+            align-items: center;
+        }
+        .product__image{
+            width: 380px;
+            height: 350px;
+            background: rgba(13, 67, 152, 0.09);
+            border-radius: 50%;
+        }
+        .product__details{
+            text-align: left;
+            width: 30%;
+        }
+        .product__details >p{
+            font-family: Manrope;
+    font-style: normal;
+    font-weight: 800;
+    font-size: 18px;
+    line-height: 129.5%;
+    letter-spacing: 1px;
+    color: #0D4398;
+        }
+        .product__para{        
+    font-family: Manrope;
+    font-style: normal !important;
+    font-weight: 500 !important;
+    font-size: 14px !important;
+    letter-spacing: 0.5px !important;
+    line-height: 192.3% !important;
+    color: #2D2C2C !important;
+        }
+        .product__details>h1{
+            font-family: Manrope;
+            font-style: normal;
+            font-weight: bold;
+            font-size: 26px;
+            line-height: 1%;
+            letter-spacing: -1px;
+            color: #151515;
+        }
+
+        .product__details > button{
+            background-color: #0D4398;
+            color: white;
+            border-radius: 66px;
+            font-family: Manrope;
+            margin-top: 2%;
+        }
+        .product__details > button:hover{
+            background-color: #3966af;
+            color: white;
+            border-radius: 66px;
+            font-family: Manrope;
+            margin-top: 2%;
+        }
+
+        .product__two{
+            display: flex;
+            padding: 1% 10% 0% 10%;
+            justify-content: space-around;
+            align-items: center;
+        }
+        .product__three{
+            display: flex;
+            padding: 4% 10% 0% 10%;
+            justify-content: space-around;
+            align-items: center;
+        }
+        .product__image2{
+            width: 350px;
+            height: 350px;
+
+        }
+        .product__image2 >img{
+            width: 100%;
+            height: 100%;
+        }
+        .title_product{
+            font-family: Manrope;
+            font-style: normal;
+            font-weight: bold;
+            font-size: 31px;
+            line-height: 119.5%;
+            text-align: center;
+            color: #2D2C2C;
+        }
+
+
+        @media only screen and (max-width:850px){
+            .title_product{
+                font-family: Manrope;
+                font-style: normal;
+                font-weight: bold;
+                font-size: 21px;
+                line-height: 119.5%;
+                text-align: center;
+                color: #2D2C2C;
+            }
+                .product__one{
+                    display: flex;
+                    padding: 10%;
+                    justify-content: space-around;
+                    align-items: center;
+                }
+                .product__image{
+                    width: 300px;
+                    height: 300px;
+                    background: rgba(13, 67, 152, 0.09);
+                    border-radius: 50%;
+                }
+                .product__details{
+                    text-align: left;
+                    width: 40%;
+                }
+                .product__details >p{
+                    font-family: Manrope;
+            font-style: normal;
+            font-weight: 800;
+            font-size: 15px;
+            line-height: 129.5%;
+            letter-spacing: 1px;
+            color: #0D4398;
+                }
+                .product__para{        
+            font-family: Manrope;
+            font-style: normal !important;
+            font-weight: 500 !important;
+            font-size: 12px !important;
+            letter-spacing: 0.5px !important;
+            line-height: 192.3% !important;
+            color: #2D2C2C !important;
+                }
+                .product__details>h2{
+                    font-family: Manrope;
+                    font-style: normal;
+                    font-weight: bold;
+                    font-size: 26px;
+                    line-height: 30px;
+                    letter-spacing: -1px;
+                    color: #151515;
+                }
+        
+                .product__details > button{
+                    background-color: #0D4398;
+                    color: white;
+                    border-radius: 66px;
+                    font-family: Manrope;
+                    margin-top: 2%;
+                    font-size: 10px;
+                }
+        }
+        @media only screen and (max-width:650px){
+            .title_product{
+                font-family: Manrope;
+                font-style: normal;
+                font-weight: bold;
+                font-size: 21px;
+                line-height: 119.5%;
+                text-align: center;
+                color: #2D2C2C;
+            }
+                .product__one{
+                    display: flex;
+                    padding: 10%;
+                    justify-content: space-around;
+                    align-items: center;
+                }
+                .product__image{
+                    width: 250px;
+                    height: 250px;
+                    background: rgba(13, 67, 152, 0.09);
+                    border-radius: 50%;
+                }
+                .product__details{
+                    text-align: left;
+                    width: 40%;
+                }
+                .product__details >p{
+                    font-family: Manrope;
+            font-style: normal;
+            font-weight: 800;
+            font-size: 14px;
+            line-height: 129.5%;
+            letter-spacing: 1px;
+            color: #0D4398;
+                }
+                .product__para{        
+            font-family: Manrope;
+            font-style: normal !important;
+            font-weight: 500 !important;
+            font-size: 11px !important;
+            letter-spacing: 0.5px !important;
+            line-height: 192.3% !important;
+            color: #2D2C2C !important;
+                }
+                .product__details>h2{
+                    font-family: Manrope;
+                    font-style: normal;
+                    font-weight: bold;
+                    font-size: 22px;
+                    line-height: 30px;
+                    letter-spacing: -1px;
+                    color: #151515;
+                }
+        
+                .product__details > button{
+                    background-color: #0D4398;
+                    color: white;
+                    border-radius: 66px;
+                    font-family: Manrope;
+                    margin-top: 2%;
+                    font-size: 10px;
+                }
+                .product__image2{
+                    width: 260px;
+                    height: 260px;
+        
+                }
+        }
+        @media only screen and (max-width:450px){
+            .products__container{
+                text-align: center;
+                width: 100%;
+                margin-top: 8%;
+                background: #F3F7FF;
+                padding-bottom: 5%;
+            }
+            .product__one{
+                display:flex;
+                padding: 10%;
+                justify-content: space-around;
+                align-items: center;
+                flex-direction: column;
+            }
+            .product__two{
+                display: flex;
+                padding: 1% 10% 0% 10%;
+                justify-content: space-around;
+                align-items: center;
+                flex-direction: column-reverse;
+                
+
+            }
+            .product__three{
+                display: flex;
+                padding: 7% 10% 0% 10%;
+                justify-content: space-around;
+                align-items: center;
+                flex-direction: column;
+
+            }
+            .title_product{
+                font-family: Manrope;
+                font-style: normal;
+                font-weight: bold;
+                font-size: 21px;
+                line-height: 119.5%;
+                text-align: center;
+                color: #2D2C2C;
+            }
+                .product__one{
+                    display: flex;
+                    padding: 10%;
+                    justify-content: space-around;
+                    align-items: center;
+                }
+                .product__image{
+                    width: 230px;
+                    height: 220px;
+                    background: rgba(13, 67, 152, 0.09);
+                    border-radius: 50%;
+                }
+                .product__details{
+                    text-align: left;
+                    width: 100%;
+                    margin-top: 5%;
+                }
+                .product__details >p{
+                    font-family: Manrope;
+            font-style: normal;
+            font-weight: 800;
+            font-size: 11px;
+            line-height: 129.5%;
+            letter-spacing: 1px;
+            color: #0D4398;
+                }
+                .product__para{        
+            font-family: Manrope;
+            margin: 3% 0px;
+            font-style: normal !important;
+            font-weight: 500 !important;
+            font-size: 11px !important;
+            letter-spacing: 0.2px !important;
+            line-height: 192.3% !important;
+            color: #2D2C2C !important;
+                }
+                .product__details>h2{
+                    font-family: Manrope;
+                    font-style: normal;
+                    font-weight: bold;
+                    font-size: 17px;
+                    margin-top: 4%;
+                    line-height: 20px;
+                    letter-spacing: -1px;
+                    color: #151515;
+                }
+        
+                .product__details > button{
+                    background-color: #0D4398;
+                    color: white;
+                    border-radius: 66px;
+                    font-family: Manrope;
+                    margin-top: 2%;
+                    font-size: 10px;
+                }
+                .product__image2{
+                    width: 230px;
+                    height: 220px;
+        
+                }
+                .title_product{
+                    font-family: Manrope;
+                    font-style: normal;
+                    font-weight: bold;
+                    font-size: 25px;
+                    line-height: 119.5%;
+                    text-align: center;
+                    color: #2D2C2C;
+                    padding: 10% 0px;
+                }
+        }

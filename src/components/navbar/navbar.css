@@ -1,0 +1,210 @@
+@import url('https://fonts.googleapis.com/css2?family=Manrope:wght@300&display=swap');
+.navbar__container{
+    width: 100%;
+    background-color: rgb(255, 255, 255);
+   
+    z-index: 999;
+}
+.info{
+   float: right;
+   margin-right: 7%;
+   display: flex;
+   width: 25%;
+}
+.info >a{
+font-family: Manrope;
+margin-left:5%;
+font-style: normal;
+font-weight: 600;
+font-size: 12px;
+line-height: 16px;
+color: #0D4398;
+align-items: center;
+text-align: center;
+display: flex;
+flex-direction: row;
+padding-top: 2%;
+}
+.MuiSvgIcon-root{
+    font-size: 1rem !important;
+    
+}
+.navbar{
+ display: flex;
+ margin-top: 20px;
+ text-align: center;
+ align-items: center;
+ width: 100%;
+ justify-content: space-around;
+}
+.navbar__logo >img{
+    
+height: 80.22139739990234px;
+width: 93px;
+left: 86px;
+top: 47.805419921875px;
+border-radius: 0px;
+padding: 10%;
+}
+
+.navbar__links >a{
+ font-family: Manrope;
+font-style: normal;
+font-weight: 600;
+font-size: 15px;
+margin-left: 55px;
+line-height: 20px;
+text-decoration: none;
+color: #000000;
+}
+.navbar__links >a:hover{
+ font-family: Manrope;
+font-style: normal;
+font-weight: 600;
+font-size: 15px;
+margin-left: 55px;
+line-height: 20px;
+text-decoration: none;
+color: #0D4398;
+}
+.navbar__links >button{
+    border-radius: 66px;
+    font-family: Manrope;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 13px;
+    margin-left: 30px;
+}
+.hiddenbtn >button{
+    color: rgb(41, 40, 40) !important;
+    background-color: transparent;
+    display: none;
+   
+    
+}
+.hiddenbtn >button>.MuiSvgIcon-root{
+    font-size: 2rem !important;
+    color: rgb(58, 57, 57) !important;
+
+}
+@media only screen and (max-width:600px){
+    .navbar__logo >img{
+    
+height: 80.22139739990234px;
+width: 83px;
+left: 76px;
+top: 47.805419921875px;
+border-radius: 0px;
+padding: 20%;
+}
+    .hiddenbtn >button{
+      display: inline-block;
+    
+    }
+    .MuiSvgIcon-root{
+        font-size: 2rem !important;
+        margin-right: 20px !important;
+    }
+    .navbar__links > a{
+        display: none;
+    }
+    .info{
+        display: none !important;
+    }
+   .buttonicon{
+       display: none !important;
+   }
+   #hidden{
+       position: absolute;
+       padding:5%;
+       background-color: rgb(255, 255, 255);
+       top: 16%;
+       left: 0;
+       width: 100%;
+       display: flex;
+       flex-direction: column;
+       justify-content: center;
+       align-items: flex-start;
+       text-align: center;
+   }
+   #hidden >a{
+       display: block;
+       margin-top: 5%;
+   }
+   #hidden > .buttonicon{
+       display: block !important;
+       margin-top: 4%;
+   }
+   .navbar{
+       justify-content: space-between;
+   }
+}
+@media only screen and (max-width:830px){
+    .info{
+        float: right;
+        margin-right: 2%;
+        display: flex;
+        width: 55%;
+     }
+     .info >a{
+     font-family: Manrope;
+     margin-left:2%;
+     font-style: normal;
+     font-weight: 600;
+     font-size: 12px;
+     line-height: 16px;
+     color: #0D4398;
+     align-items: center;
+     text-align: center;
+     display: flex;
+     flex-direction: row;
+     padding-top: 2%;
+     }
+     .MuiSvgIcon-root{
+         font-size: 1rem !important;
+         
+     }
+     .navbar__links >a{
+        font-family: Manrope;
+       font-style: normal;
+       font-weight: 600;
+       font-size: 13px;
+       margin-left: 40px;
+       line-height: 20px;
+       text-decoration: none;
+       color: #000000;
+       }
+}
+@media only screen and (max-width:690px){
+    .navbar__links >a{
+        font-family: Manrope;
+       font-style: normal;
+       font-weight: 600;
+       font-size: 12px;
+       margin-left: 20px;
+       line-height: 10px;
+       text-decoration: none;
+       color: #000000;
+       }
+       .navbar__links >button{
+        border-radius: 66px;
+        font-family: Manrope;
+        font-style: normal;
+        font-weight: 500;
+        font-size: 13px;
+        margin-left: 10px;
+    }
+}
+@media only screen and (max-width:400px){
+    #hidden >a{
+        display: block;
+        margin-top: 5%;
+        font-size: 11px;
+    }
+    #hidden > .buttonicon{
+        display: block !important;
+        margin-top: 4%;
+        font-size: 10px;
+        font-weight: bold;
+    }
+}

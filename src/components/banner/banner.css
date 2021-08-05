@@ -1,0 +1,65 @@
+@import url('https://fonts.googleapis.com/css2?family=Manrope:wght@300&display=swap');
+
+.banner__container{
+    background: linear-gradient(269.96deg, rgba(0, 0, 0, 0) 0.65%, #00000067 99.96%),url('../../assets/banner.jpg');
+    width: 100%;
+    background-size: cover;
+    background-repeat: no-repeat;
+    object-position: right;
+    object-fit: cover;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+}
+.title{
+    color: white;
+    margin-left: 10%;
+}
+.title >h1{
+    font-family: Manrope;
+font-style: normal;
+font-weight: 800;
+font-size: 62px;
+line-height: 120.5%;
+letter-spacing: -2px;
+color: #FFFFFF;
+}
+.title >p{
+font-family: Manrope;
+font-style: normal;
+font-weight: normal;
+font-size: 15px;
+line-height: 184.3%;
+color: #FFFFFF;
+width: 57%;
+margin-bottom: 2%;
+}
+.title >button{
+    background-color:white !important;
+    color: black;
+    border-radius: 66px;
+    font-family: Manrope;
+font-style: normal;
+font-weight: 900;
+font-size: 13px;
+line-height: 20px;
+text-align: center;
+}
+@media only screen and (max-width:600px){
+    .banner__container{
+        background: linear-gradient(269.96deg, rgba(0, 0, 0, 0) 0.65%, #00000067 99.96%),url('../../assets/hero.png');
+        width: 100%;
+        background-size: cover;
+        background-repeat: no-repeat;
+        object-position: right;
+        object-fit: cover;
+        height: 100vh;
+        display: flex;
+        align-items: center;
+    }
+    .title{
+        color: white;
+        margin-left: 10%;
+        display: none;
+    }
+}

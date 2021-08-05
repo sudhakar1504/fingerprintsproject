@@ -1,0 +1,286 @@
+.forms__contain{
+    background: rgba(13, 67, 152, 0.1);
+}
+.form__container{
+    display: flex;
+    padding: 5%;
+    
+    justify-content: space-evenly;
+    align-items: center;
+}
+.form__Details > h1{
+    font-family: Manrope;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 35px;
+    line-height: 119.5%;
+    letter-spacing: -1px;
+    color: #2D2C2C;
+}
+.form__Details >a{
+    font-family: Manrope;
+font-style: normal;
+font-weight: bold;
+display: flex;
+margin-top: 30px;
+font-size: 16px;
+line-height: 133.5%;
+letter-spacing: 0.05em;
+color: #363636;
+}
+.form__Details >a >.MuiSvgIcon-root{
+    font-size: 1.4rem !important;
+    text-align: center;
+    margin-right: 10px;
+    color: #0D4398 !important;
+    
+}
+.form__Details >p{
+    
+    font-family: Manrope;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 16px;
+    line-height: 192.3%;
+    color: #2D2C2C;
+    }
+    .form__para{
+        font-family: Manrope;
+        font-style: normal;
+        font-weight: 500 !important;
+        font-size: 16px !important;
+        line-height:1rem !important;
+        color: #2D2C2C !important;
+    }
+.form__Details{
+    width: 35%;
+}
+.forms{
+    display: flex;
+    flex-direction: row;
+    width: 30%;
+    background: #FFFFFF;
+    box-shadow: 0px 14px 24px rgba(0, 0, 0, 0.15);
+    padding: 3%;
+}
+.makeStyles-root-4 > * {
+    width: 90% !important;
+    margin: 8px;
+}
+.MuiFormLabel-colorSecondary.Mui-focused{
+    color: rgb(34, 33, 33) !important;
+}
+.MuiInput-colorSecondary.MuiInput-underline:after{
+    border-bottom-color: #2D2C2C !important;
+}
+.MuiInputBase-input{
+    color: black !important;
+    font-size: 6px !important;
+
+}
+.forms > form>button{
+    font-family: Manrope;
+font-style: normal;
+font-weight: bold;
+font-size: 15px;
+line-height: 24px;
+display: flex;
+align-items: center;
+text-align: center;
+margin-top: 5%;
+letter-spacing: 0.078em;
+background: #0D4398;
+border-radius: 32px;
+color: #FFFFFF !important;
+}
+.forms >form>button:hover{
+    background-color: #2455a3;
+    color: #FFFFFF;
+}
+footer >p{
+    font-family: Manrope;
+font-style: normal;
+font-weight: normal;
+font-size: 14px;
+line-height: 133.5%;
+color: #000000;
+text-align: center;
+padding: 2% 0px;
+}
+@media only screen and (max-width:800px){
+    .form__container{
+        display: flex;
+        padding: 2%;
+        
+        justify-content: space-evenly;
+        align-items: center;
+    }
+    .form__Details > h1{
+        font-family: Manrope;
+        font-style: normal;
+        font-weight: bold;
+        font-size:21px;
+        line-height: 119.5%;
+        letter-spacing: 1px;
+        color: #2D2C2C;
+    }
+    .form__Details >a{
+        font-family: Manrope;
+    font-style: normal;
+    font-weight: bold;
+    display: flex;
+    margin-top: 30px;
+    font-size: 12px;
+    line-height: 133.5%;
+    letter-spacing: 0.05em;
+    color: #363636;
+    }
+    .form__Details >a >.MuiSvgIcon-root{
+        font-size: 1.1rem !important;
+        text-align: center;
+        margin-right: 10px;
+        color: #0D4398 !important;
+        
+    }
+    .form__Details >p{
+        margin: 3% 0px;
+        font-family: Manrope;
+        font-style: normal;
+        font-weight: bold;
+        font-size: 14px;
+        line-height: 192.3%;
+        color: #2D2C2C;
+        }
+        .form__para{
+            font-family: Manrope;
+            font-style: normal;
+            font-weight: 500 !important;
+            font-size: 13px !important;
+            line-height:1rem !important;
+            color: #2D2C2C !important;
+        }
+    .form__Details{
+        width: 40%;
+    }
+    .forms{
+        display: flex;
+        flex-direction: row;
+        width: 50%;
+        background: #FFFFFF;
+        box-shadow: 0px 14px 24px rgba(0, 0, 0, 0.15);
+        padding: 1%;
+    }
+    .forms > form>button{
+        font-family: Manrope;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 13px;
+    line-height: 24px;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    margin-top: 5%;
+    letter-spacing: 0.078em;
+    background: #0D4398;
+    border-radius: 32px;
+    color: #FFFFFF !important;
+    }
+}
+@media only screen and (max-width:500px){
+    .form__container{
+        display: flex;
+        padding: 2%;
+        flex-direction: column;
+        justify-content: space-evenly;
+        align-items: center;
+    }
+    .form__Details > h1{
+        font-family: Manrope;
+        font-style: normal;
+        font-weight: bold;
+        font-size:17px;
+        line-height: 119.5%;
+        letter-spacing: 1px;
+        color: #2D2C2C;
+    }
+    .form__Details >a{
+        font-family: Manrope;
+    font-style: normal;
+    font-weight: bold;
+    display: flex;
+    margin-top: 5px;
+    font-size: 12px;
+    line-height: 133.5%;
+    letter-spacing: 0.05em;
+    color: #363636;
+    }
+    .form__Details >a >.MuiSvgIcon-root{
+        font-size: 1.1rem !important;
+        text-align: center;
+        margin-right: 10px;
+        color: #0D4398 !important;
+        
+    }
+    .form__Details >p{
+        margin: 3% 0px;
+        font-family: Manrope;
+        font-style: normal;
+        font-weight: bold;
+        font-size: 13px;
+        width: 60%;
+        line-height: 192.3%;
+        color: #2D2C2C;
+        }
+        .form__para{
+            font-family: Manrope;
+            font-style: normal;
+            font-weight: 500 !important;
+            font-size: 13px !important;
+            line-height:1rem !important;
+            color: #2D2C2C !important;
+        }
+    .form__Details{
+        width: 100%;
+    }
+    .forms{
+        display: flex;
+        flex-direction: row;
+        width: 90%;
+        background: #FFFFFF;
+        box-shadow: 0px 14px 24px rgba(0, 0, 0, 0.15);
+        margin-top: 7%;
+    }
+    .forms > form>button{
+        font-family: Manrope;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 13px;
+    line-height: 24px;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    margin-top: 5%;
+    letter-spacing: 0.078em;
+    background: #0D4398;
+    border-radius: 32px;
+    color: #FFFFFF !important;
+    }
+    footer >p{
+        font-family: Manrope;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 11px;
+    line-height: 133.5%;
+    color: #000000;
+    text-align: center;
+    padding: 4% 0px;
+    }
+    .MuiInputBase-input{
+        color: black !important;
+        font-size: 13px !important;
+    
+    }
+    .MuiFormLabel-root{
+        font-size: 0.8rem !important;
+    }
+}

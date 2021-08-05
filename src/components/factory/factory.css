@@ -1,0 +1,38 @@
+.factory__container{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+}
+.factory > h1{
+    font-family: Manrope;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 31px;
+    line-height: 119.5%;
+    text-align: center;
+    color: #2D2C2C;
+    margin-bottom: 5%;
+}
+.factory{
+    margin-top: 8%;
+}
+@media only screen and (max-width:900px){
+    .factory__container >img{
+        width: 100%;
+    }
+    .factory > h1{
+        font-family: Manrope;
+        font-style: normal;
+        font-weight: bold;
+        font-size: 25px;
+
+        line-height: 119.5%;
+        text-align: center;
+        color: #2D2C2C;
+        margin-bottom: 10%;
+    }
+    .factory{
+        margin-top: 8%;
+    }
+}
