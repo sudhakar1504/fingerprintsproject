@@ -107,6 +107,14 @@ color: #000000;
 text-align: center;
 padding: 2% 0px;
 }
+.MuiInputBase-input{
+    color: black !important;
+    font-size: 13px !important;
+
+}
+.MuiFormLabel-root{
+    font-size: 0.9rem !important;
+}
 @media only screen and (max-width:800px){
     .form__container{
         display: flex;
@@ -184,6 +192,14 @@ padding: 2% 0px;
     background: #0D4398;
     border-radius: 32px;
     color: #FFFFFF !important;
+    }
+    .MuiInputBase-input{
+        color: black !important;
+        font-size: 13px !important;
+    
+    }
+    .MuiFormLabel-root{
+        font-size: 0.8rem !important;
     }
 }
 @media only screen and (max-width:500px){
