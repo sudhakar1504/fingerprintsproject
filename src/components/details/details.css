@@ -145,8 +145,9 @@ color: #2D2C2C;
 		font-weight: bold;
 		font-size:40px;
 		line-height: 119.5%;
-		letter-spacing: -2px;
+		letter-spacing: 1px;
 		color: #2D2C2C;
+		margin-bottom: 10px;
 	}
 	.para__title >p{
 	
