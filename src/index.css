@@ -17,3 +17,11 @@ code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
 }
+::-webkit-scrollbar{
+  width: 7px;
+  background-color: rgb(255, 255, 255);
+}
+::-webkit-scrollbar-thumb{
+  background-color: rgb(210, 211, 209);
+  border-radius: 10px;
+}
