@@ -2,7 +2,7 @@
 .navbar__container{
     width: 100%;
     background-color: rgb(255, 255, 255);
-   
+    position: fixed;
     z-index: 999;
 }
 .info{
@@ -194,6 +194,7 @@ padding: 20%;
         font-size: 13px;
         margin-left: 10px;
     }
+   
 }
 @media only screen and (max-width:400px){
     #hidden >a{

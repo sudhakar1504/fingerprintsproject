@@ -10,6 +10,7 @@
     height: 100vh;
     display: flex;
     align-items: center;
+    position: static;
 }
 .title{
     color: white;
